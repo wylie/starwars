@@ -30,4 +30,4 @@ const displayData = (data) => {
 document.getElementById('release').addEventListener('click', sortByReleaseDate);
 document.getElementById('chronological').addEventListener('click', sortByDate);
 
-fetchData().then(displayData);
+fetchData().then(sortByReleaseDate);
