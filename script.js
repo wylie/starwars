@@ -2,6 +2,7 @@ function itemCard(item) {
   return (`
     <p>${item.type}</p>
     <p>${item.title}</p>
+    <p>Era: ${item.era}</p>
     <p>Release Year: ${item.releaseDate}</p>
     <p>${item.byDate >= 0 ? "ABY: " : "BBY: "}${item.byDate}</p>
   `)
