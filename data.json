@@ -152,5 +152,104 @@
     "length": 0,
     "rating": "",
     "era": "Reign of the Empire"
+  },
+  {
+    "type": "tvshow",
+    "title": "Tales of the Jedi",
+    "releaseDate": 2022,
+    "byDate": -40,
+    "director": "",
+    "author": "",
+    "length": 0,
+    "rating": "",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "movie",
+    "title": "Solo: A Star Wars Story",
+    "releaseDate": 2018,
+    "byDate": -13,
+    "director": "",
+    "author": "",
+    "length": 0,
+    "rating": "",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "tvshow",
+    "title": "Obi-Wan Kenobi",
+    "releaseDate": 2022,
+    "byDate": -9,
+    "director": "",
+    "author": "",
+    "length": 0,
+    "rating": "",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "tvshow",
+    "title": "Star Wars Rebels",
+    "releaseDate": 2014,
+    "byDate": -5,
+    "director": "",
+    "author": "",
+    "length": 0,
+    "rating": "",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "tvshow",
+    "title": "Andor",
+    "releaseDate": 2022,
+    "byDate": -5,
+    "director": "",
+    "author": "",
+    "length": 0,
+    "rating": "",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "movie",
+    "title": "Rogue One: A Star Wars Story",
+    "releaseDate": 2016,
+    "byDate": 0,
+    "director": "",
+    "author": "",
+    "length": 0,
+    "rating": "",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "tvshow",
+    "title": "The Mandalorian",
+    "releaseDate": 2019,
+    "byDate": 9,
+    "director": "",
+    "author": "",
+    "length": 0,
+    "rating": "",
+    "era": "The New Republic"
+  },
+  {
+    "type": "tvshow",
+    "title": "The Book of Boba Fett",
+    "releaseDate": 2021,
+    "byDate": 9,
+    "director": "",
+    "author": "",
+    "length": 0,
+    "rating": "",
+    "era": "The New Republic"
+  },
+  {
+    "type": "tvshow",
+    "title": "Ahsoka",
+    "releaseDate": 2023,
+    "byDate": 11,
+    "director": "",
+    "author": "",
+    "length": 0,
+    "rating": "",
+    "era": "The New Republic"
   }
 ]
