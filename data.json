@@ -5,7 +5,6 @@
     "releaseDate": 1977,
     "byDate": 0,
     "director": "George Lucas",
-    "author": "",
     "length": 121,
     "rating": "pg",
     "era": "Age of Rebellion"
@@ -16,7 +15,6 @@
     "releaseDate": 1980,
     "byDate": 3,
     "director": "Irvin Kershner",
-    "author": "",
     "length": 124,
     "rating": "pg",
     "era": "Age of Rebellion"
@@ -27,7 +25,6 @@
     "releaseDate": 1983,
     "byDate": 4,
     "director": "Richard Marquand",
-    "author": "",
     "length": 135,
     "rating": "pg",
     "era": "Age of Rebellion"
@@ -38,7 +35,6 @@
     "releaseDate": 1999,
     "byDate": -32,
     "director": "George Lucas",
-    "author": "",
     "length": 0,
     "rating": "pg",
     "era": "Fall of the Jedi"
@@ -49,7 +45,6 @@
     "releaseDate": 2002,
     "byDate": -22,
     "director": "George Lucas",
-    "author": "",
     "length": 0,
     "rating": "pg",
     "era": "Fall of the Jedi"
@@ -60,7 +55,6 @@
     "releaseDate": 2005,
     "byDate": -19,
     "director": "George Lucas",
-    "author": "",
     "length": 0,
     "rating": "pg-13",
     "era": "Fall of the Jedi"
@@ -71,7 +65,6 @@
     "releaseDate": 2015,
     "byDate": 34,
     "director": "J. J. Abrams",
-    "author": "",
     "length": 0,
     "rating": "pg-13",
     "era": "Rise of the First Order"
@@ -82,7 +75,6 @@
     "releaseDate": 2017,
     "byDate": 34,
     "director": "Rian Johnson",
-    "author": "",
     "length": 0,
     "rating": "pg-13",
     "era": "Rise of the First Order"
@@ -93,7 +85,6 @@
     "releaseDate": 2019,
     "byDate": 35,
     "director": "J. J. Abrams",
-    "author": "",
     "length": 0,
     "rating": "pg-13",
     "era": "Rise of the First Order"
@@ -104,7 +95,6 @@
     "releaseDate": 2008,
     "byDate": -22,
     "director": "",
-    "author": "",
     "length": 0,
     "rating": "pg",
     "era": "Fall of the Jedi"
@@ -115,7 +105,6 @@
     "releaseDate": 2008,
     "byDate": -22,
     "director": "",
-    "author": "",
     "length": 0,
     "rating": "",
     "era": "Fall of the Jedi"
@@ -126,7 +115,6 @@
     "releaseDate": 2018,
     "byDate": 34,
     "director": "",
-    "author": "",
     "length": 0,
     "rating": "",
     "era": "Fall of the Jedi"
@@ -137,7 +125,6 @@
     "releaseDate": 2024,
     "byDate": -132,
     "director": "",
-    "author": "",
     "length": 0,
     "rating": "",
     "era": "The High Republic"
@@ -148,7 +135,6 @@
     "releaseDate": 2021,
     "byDate": 19,
     "director": "",
-    "author": "",
     "length": 0,
     "rating": "",
     "era": "Reign of the Empire"
@@ -159,7 +145,6 @@
     "releaseDate": 2022,
     "byDate": -40,
     "director": "",
-    "author": "",
     "length": 0,
     "rating": "",
     "era": "Reign of the Empire"
@@ -170,7 +155,6 @@
     "releaseDate": 2018,
     "byDate": -13,
     "director": "",
-    "author": "",
     "length": 0,
     "rating": "",
     "era": "Reign of the Empire"
@@ -181,7 +165,6 @@
     "releaseDate": 2022,
     "byDate": -9,
     "director": "",
-    "author": "",
     "length": 0,
     "rating": "",
     "era": "Reign of the Empire"
@@ -192,7 +175,6 @@
     "releaseDate": 2014,
     "byDate": -5,
     "director": "",
-    "author": "",
     "length": 0,
     "rating": "",
     "era": "Reign of the Empire"
@@ -203,7 +185,6 @@
     "releaseDate": 2022,
     "byDate": -5,
     "director": "",
-    "author": "",
     "length": 0,
     "rating": "",
     "era": "Reign of the Empire"
@@ -214,7 +195,6 @@
     "releaseDate": 2016,
     "byDate": 0,
     "director": "",
-    "author": "",
     "length": 0,
     "rating": "",
     "era": "Reign of the Empire"
@@ -225,7 +205,6 @@
     "releaseDate": 2019,
     "byDate": 9,
     "director": "",
-    "author": "",
     "length": 0,
     "rating": "",
     "era": "The New Republic"
@@ -236,7 +215,6 @@
     "releaseDate": 2021,
     "byDate": 9,
     "director": "",
-    "author": "",
     "length": 0,
     "rating": "",
     "era": "The New Republic"
@@ -247,9 +225,38 @@
     "releaseDate": 2023,
     "byDate": 11,
     "director": "",
-    "author": "",
     "length": 0,
     "rating": "",
     "era": "The New Republic"
+  },
+  {
+    "type": "comic",
+    "title": "Star Wars: Darth Vader",
+    "releaseDate": 2015,
+    "byDate": -1,
+    "author": "Kieron Gillen",
+    "pages": 25,
+    "rating": "",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "book",
+    "title": "Star Wars: Thrawn",
+    "releaseDate": 2017,
+    "byDate": -2,
+    "author": "Timothy Zahn",
+    "pages": 448,
+    "rating": "",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "videogame",
+    "title": "Star Wars Jedi: Fallen Order",
+    "releaseDate": 2019,
+    "byDate": -5,
+    "developer": "Respawn Entertainment",
+    "platforms": ["PC", "PS4", "Xbox One"],
+    "rating": "T",
+    "era": "Reign of the Empire"
   }
 ]
