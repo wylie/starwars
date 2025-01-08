@@ -1,0 +1,156 @@
+[
+  {
+    "type": "movie",
+    "title": "Star Wars: A New Hope (Episode IV)",
+    "releaseDate": 1977,
+    "byDate": 0,
+    "director": "George Lucas",
+    "author": "",
+    "length": 121,
+    "rating": "pg",
+    "era": "Age of Rebellion"
+  },
+  {
+    "type": "movie",
+    "title": "Star Wars: The Empire Strikes Back (Episode V)",
+    "releaseDate": 1980,
+    "byDate": 3,
+    "director": "Irvin Kershner",
+    "author": "",
+    "length": 124,
+    "rating": "pg",
+    "era": "Age of Rebellion"
+  },
+  {
+    "type": "movie",
+    "title": "Star Wars: Return of the Jedi (Episode VI)",
+    "releaseDate": 1983,
+    "byDate": 4,
+    "director": "Richard Marquand",
+    "author": "",
+    "length": 135,
+    "rating": "pg",
+    "era": "Age of Rebellion"
+  },
+  {
+    "type": "movie",
+    "title": "Star Wars: The Phantom Menace (Episode I)",
+    "releaseDate": 1999,
+    "byDate": -32,
+    "director": "George Lucas",
+    "author": "",
+    "length": 0,
+    "rating": "pg",
+    "era": "Fall of the Jedi"
+  },
+  {
+    "type": "movie",
+    "title": "Star Wars: Attack of the Clones (Episode II)",
+    "releaseDate": 2002,
+    "byDate": -22,
+    "director": "George Lucas",
+    "author": "",
+    "length": 0,
+    "rating": "pg",
+    "era": "Fall of the Jedi"
+  },
+  {
+    "type": "movie",
+    "title": "Star Wars: Revenge of the Sith (Episode III)",
+    "releaseDate": 2005,
+    "byDate": -19,
+    "director": "George Lucas",
+    "author": "",
+    "length": 0,
+    "rating": "pg-13",
+    "era": "Fall of the Jedi"
+  },
+  {
+    "type": "movie",
+    "title": "Star Wars: The Force Awakens (Episode VII)",
+    "releaseDate": 2015,
+    "byDate": 34,
+    "director": "J. J. Abrams",
+    "author": "",
+    "length": 0,
+    "rating": "pg-13",
+    "era": "Rise of the First Order"
+  },
+  {
+    "type": "movie",
+    "title": "Star Wars: The Last Jedi (Episode VIII)",
+    "releaseDate": 2017,
+    "byDate": 34,
+    "director": "Rian Johnson",
+    "author": "",
+    "length": 0,
+    "rating": "pg-13",
+    "era": "Rise of the First Order"
+  },
+  {
+    "type": "movie",
+    "title": "Star Wars: The Rise of Skywalker (Episode IX)",
+    "releaseDate": 2019,
+    "byDate": 35,
+    "director": "J. J. Abrams",
+    "author": "",
+    "length": 0,
+    "rating": "pg-13",
+    "era": "Rise of the First Order"
+  },
+  {
+    "type": "movie",
+    "title": "Star Wars: The Clone Wars",
+    "releaseDate": 2008,
+    "byDate": -22,
+    "director": "",
+    "author": "",
+    "length": 0,
+    "rating": "pg",
+    "era": "Fall of the Jedi"
+  },
+  {
+    "type": "tvshow",
+    "title": "Star Wars: The Clone Wars",
+    "releaseDate": 2008,
+    "byDate": -22,
+    "director": "",
+    "author": "",
+    "length": 0,
+    "rating": "",
+    "era": "Fall of the Jedi"
+  },
+  {
+    "type": "tvshow",
+    "title": "Star Wars: Resistance",
+    "releaseDate": 2018,
+    "byDate": 34,
+    "director": "",
+    "author": "",
+    "length": 0,
+    "rating": "",
+    "era": "Fall of the Jedi"
+  },
+  {
+    "type": "tvshow",
+    "title": "Star Wars: The Acolyte",
+    "releaseDate": 2024,
+    "byDate": -132,
+    "director": "",
+    "author": "",
+    "length": 0,
+    "rating": "",
+    "era": "The High Republic"
+  },
+  {
+    "type": "tvshow",
+    "title": "Star Wars: The Bad Batch",
+    "releaseDate": 2021,
+    "byDate": 19,
+    "director": "",
+    "author": "",
+    "length": 0,
+    "rating": "",
+    "era": "Reign of the Empire"
+  }
+]
