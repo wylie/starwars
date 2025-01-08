@@ -1,3 +1,11 @@
+function itemDisplay(item) {
+  return (`
+    <p>${item.title}</p>
+    <p>Release Year: ${item.releaseDate}</p>
+    <p>${item.byDate >= 0 ? "ABY: " : "BBY: "}${item.byDate}</p>
+  `)
+};
+
 async function fetchData() {
   const response = await fetch('./data.json');
   const data = await response.json();
@@ -22,7 +30,7 @@ const displayData = (data) => {
   data.forEach(item => {
     const div = document.createElement('div');
     div.className = `sw-item ${item.type}`;
-    div.innerHTML = `<p>${item.title}</p><p>${item.releaseDate}</p>`;
+    div.innerHTML = itemDisplay(item);
     container.appendChild(div);
   });
 };
