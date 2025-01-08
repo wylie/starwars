@@ -1,5 +1,6 @@
-function itemDisplay(item) {
+function itemCard(item) {
   return (`
+    <p>${item.type}</p>
     <p>${item.title}</p>
     <p>Release Year: ${item.releaseDate}</p>
     <p>${item.byDate >= 0 ? "ABY: " : "BBY: "}${item.byDate}</p>
@@ -30,7 +31,7 @@ const displayData = (data) => {
   data.forEach(item => {
     const div = document.createElement('div');
     div.className = `sw-item ${item.type}`;
-    div.innerHTML = itemDisplay(item);
+    div.innerHTML = itemCard(item);
     container.appendChild(div);
   });
 };
