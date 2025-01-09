@@ -55,18 +55,17 @@ async function fetchData() {
   return data;
 }
 
-// TODO: consolidate sortByReleaseDate and sortByDate functions?
-// sort the data by release date
-async function sortByReleaseDate() {
+// TODO: when filtering, and you choose to resort by chrono/date, this function removes the 'visible' class, which it shouldn't do. add a check for the filters on each resort
+// sort the data by release date or chronological date
+async function sort(sortBy) {
   const data = await fetchData();
-  const sortedData = data.sort((a, b) => new Date(a.releaseDate) - new Date(b.releaseDate));
-  displayData(sortedData);
-}
-
-// sort the data by BBY/ABY date
-async function sortByDate() {
-  const data = await fetchData();
-  const sortedData = data.sort((a, b) => new Date(a.chronoDate) - new Date(b.chronoDate));
+  const sortedData = data.sort((a, b) => {
+    if (sortBy === 'releaseDate') {
+      return new Date(a[sortBy]) - new Date(b[sortBy]);
+    } else {
+      return a[sortBy] - b[sortBy];
+    }
+  });
   displayData(sortedData);
 }
 
@@ -107,15 +106,14 @@ const displayData = (data) => {
   });
 };
 
-// add event listeners to the buttons
-document.getElementById('release').addEventListener('click', sortByReleaseDate);
-document.getElementById('chronological').addEventListener('click', sortByDate);
-
+// add event listeners
+document.getElementById('release').addEventListener('click', () => sort("releaseDate"));
+document.getElementById('chronological').addEventListener('click', () => sort("chronoDate"));
 document.getElementById('movie').addEventListener('click', () => filterData("movie"));
 document.getElementById('tvshow').addEventListener('click', () => filterData("tvshow"));
 document.getElementById('book').addEventListener('click', () => filterData("book"));
 document.getElementById('comic').addEventListener('click', () => filterData("comic"));
 document.getElementById('videogame').addEventListener('click', () => filterData("videogame"));
 
-// initial call to fetch and display the data
-fetchData().then(sortByDate);
+// initial call to fetch and display data
+fetchData().then(sort("chronoDate"));
