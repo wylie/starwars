@@ -6,24 +6,35 @@ body {
   margin: 0;
 }
 
+body {
+  background: #000 url("./assets/stars.webp") fixed top left;
+  background-size: 500px;
+}
+
 .wrapper {
+  display: flex;
+  flex-direction: column;
   position: relative;
   padding: 0 1rem 1rem;
+  gap: 1rem;
 }
 
-h1 {
-  margin: 0;
+header .title {
+  /* display: flex;
+  align-items: baseline; */
   border-bottom: 1px solid black;
 }
-
+.title h1 {
+  margin: 0;
+}
 h2 {
   margin: .5rem 0 0;
 }
 
 .button {
   display: inline-block;
-  background-color: #999;
-  color: white;
+  background-color: #ccc;
+  color: black;
   cursor: pointer;
   border: 0;
   border-radius: 5px;
@@ -35,40 +46,146 @@ h2 {
 input {
   display: none;
 }
-input:checked + .button {
-  background-color: #555;
-}
-.button:hover {
-  background-color: #333;
-}
-.sw-item {
-}
+
 .card {
-  padding: 1rem;
-  background: #ccc;
+  display: grid;
+  background: #efefef;
   border-radius: 5px;
-  margin: 1rem 0;
+  margin: 0 auto 1.5rem;
+  grid-template-columns: 75px 1fr;
+  grid-template-rows: 1fr auto;
 }
-.card p {
-  margin: 0;
+.filters .button {
+  display: inline-flex;
+  border-radius: 25px;
 }
-.card p:not(:first-child) {
-  margin: 1rem 0;
+.filters .button::before,
+.filters input:checked + .button::before {
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  display: inline-block;
+  margin-right: .25rem;
 }
-.card p:last-child {
-  margin-bottom: 0;
+.filters .movie::before {
+  background: url("./assets/radio_button_unchecked-black.svg") no-repeat center;
+  background-size: contain;
+}
+.filters input:checked + .movie::before {
+  background: url("./assets/radio_button_checked-black.svg") no-repeat center;
+  background-size: contain;
+}
+.filters .tvshow::before {
+  background: url("./assets/radio_button_unchecked-black.svg") no-repeat center;
+  background-size: contain;
+}
+.filters input:checked + .tvshow::before {
+  background: url("./assets/radio_button_checked-black.svg") no-repeat center;
+  background-size: contain;
+}
+.filters .book::before {
+  background: url("./assets/radio_button_unchecked-black.svg") no-repeat center;
+  background-size: contain;
+}
+.filters input:checked + .book::before {
+  background: url("./assets/radio_button_checked-black.svg") no-repeat center;
+  background-size: contain;
+}
+.filters .comic::before {
+  background: url("./assets/radio_button_unchecked-black.svg") no-repeat center;
+  background-size: contain;
+}
+.filters input:checked + .comic::before {
+  background: url("./assets/radio_button_checked-black.svg") no-repeat center;
+  background-size: contain;
+}
+.filters .videogame::before {
+  background: url("./assets/radio_button_unchecked-black.svg") no-repeat center;
+  background-size: contain;
+}
+.filters input:checked + .videogame::before {
+  background: url("./assets/radio_button_checked-black.svg") no-repeat center;
+  background-size: contain;
+}
+.movie .card-type,
+.movie.button {
+  background-color: #E4C8DD;
+}
+.movie .card-type{
+  background-image: url("./assets/movie-black.svg");
+}
+.tvshow .card-type,
+.tvshow.button {
+  background-color: #92C9DD;
+}
+.tvshow .card-type{
+  background-image: url("./assets/tv-black.svg");
+}
+.book .card-type,
+.book.button {
+  background-color: #15C8CB;
+}
+.book .card-type {
+  background-image: url("./assets/book-black.svg");
+}
+.comic .card-type,
+.comic.button {
+  background-color: #F4C27C;
+}
+.comic .card-type {
+  background-image: url("./assets/comic-black.svg");
+}
+.videogame .card-type,
+.videogame.button {
+  background-color: #EB8984;
+}
+.videogame .card-type {
+  background-image: url("./assets/videogame-black.svg");
+}
+.card-type {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: grid;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.card-title {
+  padding: 1rem;
+}
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 2px solid #999;
+  padding: .5rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  font-size: .75rem;
+}
+.card-meta {
+  white-space: nowrap;
 }
 
-/* .sw-item:not(.selected) {
-  background: #ccc;
-} */
+.card p,
+.card h3 {
+  margin: 0;
+}
 
 .sticky {
   position: sticky;
   top: 0;
   z-index: 1000;
   background: white;
-  padding: 1rem 0;
+  padding: 1rem;
+  height: fit-content;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .25)
 }
 
 .filtered .sw-item {
