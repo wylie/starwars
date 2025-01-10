@@ -1,33 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Star Wars Timeline</title>
+  <meta name="description" content="Star Wars Timeline" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="./styles.css">
   <script src="./script.js" type="module"></script>
 </head>
 <body>
   <div class="wrapper">
-    <div class="sticky">
-      <h1>Star Wars Timeline</h1>
+    <header class="sticky">
+      <div class="title">
+        <h1>Star Wars</h1>
+        <h2>Timeline</h2>
+      </div>
       <div>
         <h2>Sort</h2>
         <button class="button" id="release">Release Date</button>
         <button class="button" id="chronological">Chronologically</button>
       </div>
-      <div>
+      <div class="filters">
         <h2>Filter</h2>
         <input class="checkbox" type="checkbox" id="movie" />
-        <label class="button" for="movie">Movies</label>
+        <label class="button movie" for="movie">Movies</label>
         <input class="checkbox" type="checkbox" id="tvshow" />
-        <label class="button" for="tvshow">TV Shows</label>
+        <label class="button tvshow" for="tvshow">TV Shows</label>
         <input class="checkbox" type="checkbox" id="book" />
-        <label class="button" for="book">Books</label>
+        <label class="button book" for="book">Books</label>
         <input class="checkbox" type="checkbox" id="comic" />
-        <label class="button" for="comic">Comics</label>
+        <label class="button comic" for="comic">Comics</label>
         <input class="checkbox" type="checkbox" id="videogame" />
-        <label class="button" for="videogame">Video Games</label>
+        <label class="button videogame" for="videogame">Video Games</label>
       </div>
-    </div>
+    </header>
     <div id="starwars"></div>
   </div>
 </body>
