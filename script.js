@@ -39,27 +39,32 @@ function itemCard(item) {
   // return the card
   return (`
     <div class="card">
-      <p><strong>${type}</strong></p>
-      <p>${item.title}</p>
-      <p><strong>Era</strong>: ${item.era}</p>
-      <p><strong>Release Year</strong>: ${item.releaseDate}</p>
-      <p>${byDate}</p>
+      <div class="card-type" title=${type}></div>
+      <div class="card-title">
+        <h3>${item.title}</h3>
+      </div>
+      <div class="card-meta">
+        <p><strong>Era</strong>: ${item.era}</p>
+        <p><strong>Release Year</strong>: ${item.releaseDate}</p>
+        <p>${byDate}</p>
+      </div>
     </div>
   `)
 };
+
+let starWarsData = [];
 
 // fetch the data from the json file
 async function fetchData() {
   const response = await fetch('./data.json');
   const data = await response.json();
-  return data;
+  return starWarsData = data;
 }
 
 // TODO: when filtering, and you choose to resort by chrono/date, this function removes the 'visible' class, which it shouldn't do. add a check for the filters on each resort
 // sort the data by release date or chronological date
 async function sort(sortBy) {
-  const data = await fetchData();
-  const sortedData = data.sort((a, b) => {
+  const sortedData = starWarsData.sort((a, b) => {
     if (sortBy === 'releaseDate') {
       return new Date(a[sortBy]) - new Date(b[sortBy]);
     } else {
@@ -70,8 +75,8 @@ async function sort(sortBy) {
 }
 
 // check the checkboxes
+const starwarsElement = document.getElementById('starwars');
 function checkboxCheck() {
-  const starwarsElement = document.getElementById('starwars');
   const checkboxes = document.querySelectorAll('.checkbox');
   let checked = [];
   checkboxes.forEach(function(elem) {
@@ -86,23 +91,22 @@ function checkboxCheck() {
 }
 
 // do the filtering
-function filterData(data) {
-  const swItem = document.getElementsByClassName(`sw-item ${data}`);
+function filterData(filterBy) {
+  const swItem = document.getElementsByClassName(`sw-item ${filterBy}`);
   checkboxCheck();
-    Array.from(swItem).forEach(item => {
-      item.classList.toggle("visible");
-    });
+  Array.from(swItem).forEach(item => {
+    item.classList.toggle("visible");
+  });
 }
 
 // display the data on the page
-const displayData = (data) => {
-  const container = document.getElementById('starwars');
-  container.innerHTML = '';
-  data.forEach(item => {
+const displayData = (starWarsData) => {
+  starwarsElement.innerHTML = '';
+  starWarsData.forEach(item => {
     const div = document.createElement('div');
     div.className = `sw-item ${item.type}`;
     div.innerHTML = itemCard(item);
-    container.appendChild(div);
+    starwarsElement.appendChild(div);
   });
 };
 
@@ -116,4 +120,4 @@ document.getElementById('comic').addEventListener('click', () => filterData("com
 document.getElementById('videogame').addEventListener('click', () => filterData("videogame"));
 
 // initial call to fetch and display data
-fetchData().then(sort("chronoDate"));
+fetchData().then(() => sort("chronoDate"));
