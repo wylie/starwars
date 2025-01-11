@@ -10,27 +10,28 @@
 <body>
   <div class="wrapper">
     <header class="sticky">
-      <div class="title">
-        <h1>Star Wars</h1>
-        <h2>Timeline</h2>
-      </div>
-      <div>
+      <h1 class="title">Star Wars Timeline</h1>
+      <div class="sort">
         <h2>Sort</h2>
-        <button class="button" id="release">Release Date</button>
-        <button class="button" id="chronological">Chronologically</button>
+        <fieldset>
+          <input class="radio" type="radio" id="release" name="sort" />
+          <label class="label release" for="release">Release Date</label>
+          <input class="radio" type="radio" id="chronological" name="sort" checked />
+          <label class="label chronological" for="chronological">Chronologically</label>
+        </fieldset>
       </div>
-      <div class="filters">
+      <div class="filter">
         <h2>Filter</h2>
         <input class="checkbox" type="checkbox" id="movie" />
-        <label class="button movie" for="movie">Movies</label>
+        <label class="label movie" for="movie">Movies</label>
         <input class="checkbox" type="checkbox" id="tvshow" />
-        <label class="button tvshow" for="tvshow">TV Shows</label>
+        <label class="label tvshow" for="tvshow">TV Shows</label>
         <input class="checkbox" type="checkbox" id="book" />
-        <label class="button book" for="book">Books</label>
+        <label class="label book" for="book">Books</label>
         <input class="checkbox" type="checkbox" id="comic" />
-        <label class="button comic" for="comic">Comics</label>
+        <label class="label comic" for="comic">Comics</label>
         <input class="checkbox" type="checkbox" id="videogame" />
-        <label class="button videogame" for="videogame">Video Games</label>
+        <label class="label videogame" for="videogame">Video Games</label>
       </div>
     </header>
     <div id="starwars"></div>
