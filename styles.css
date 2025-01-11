@@ -1,3 +1,24 @@
+:root {
+  --label-background: #ccc;
+  --card-background: #efefef;
+  --text-color: #000;
+  --border-background: #999;
+  --sticky-background: #fff;
+  --movie-background: #E4C8DD;
+  --tvshow-background: #92C9DD;
+  --book-background: #15C8CB;
+  --comic-background: #F4C27C;
+  --videogame-background: #EB8984;
+  --radio-button-unchecked: url("./assets/radio_button_unchecked-black.svg");
+  --radio-button-checked: url("./assets/radio_button_checked-black.svg");
+  
+  --movie-icon: url("./assets/movie-black.svg");
+  --tvshow-icon: url("./assets/tv-black.svg");
+  --book-icon: url("./assets/book-black.svg");
+  --comic-icon: url("./assets/comic-black.svg");
+  --videogame-icon: url("./assets/videogame-black.svg");
+}
+
 html,
 body {
   font-family: Arial, sans-serif;
@@ -20,154 +41,137 @@ body {
 }
 
 header .title {
-  /* display: flex;
-  align-items: baseline; */
   border-bottom: 1px solid black;
 }
-.title h1 {
+
+.title {
   margin: 0;
 }
+
 h2 {
   margin: .5rem 0 0;
 }
 
-.button {
-  display: inline-block;
-  background-color: #ccc;
+fieldset {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+/* inputs & labels */
+.checkbox,
+.radio {
+  display: none;
+}
+.label {
+  display: inline-flex;
+  background: var(--label-background);
   color: black;
   cursor: pointer;
-  border: 0;
-  border-radius: 5px;
+  border-radius: 25px;
   font-size: 1rem;
   padding: 6px 10px;
   margin: .5rem 0 0;
   transition: all .25s;
 }
-input {
-  display: none;
-}
 
-.card {
-  display: grid;
-  background: #efefef;
-  border-radius: 5px;
-  margin: 0 auto 1.5rem;
-  grid-template-columns: 75px 1fr;
-  grid-template-rows: 1fr auto;
-}
-.filters .button {
-  display: inline-flex;
-  border-radius: 25px;
-}
-.filters .button::before,
-.filters input:checked + .button::before {
+.label::before {
   content: "";
   height: 1rem;
   width: 1rem;
   display: inline-block;
   margin-right: .25rem;
-}
-.filters .movie::before {
-  background: url("./assets/radio_button_unchecked-black.svg") no-repeat center;
+  background-image: var(--radio-button-unchecked);
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.filters input:checked + .movie::before {
-  background: url("./assets/radio_button_checked-black.svg") no-repeat center;
-  background-size: contain;
+
+input:checked + .label::before {
+  background-image: var(--radio-button-checked);
 }
-.filters .tvshow::before {
-  background: url("./assets/radio_button_unchecked-black.svg") no-repeat center;
-  background-size: contain;
+
+/* card */
+.card {
+  display: grid;
+  background: var(--card-background);
+  border-radius: 10px;
+  margin: 0 auto 1.5rem;
+  grid-template-columns: 75px 1fr;
+  grid-template-rows: 1fr auto;
 }
-.filters input:checked + .tvshow::before {
-  background: url("./assets/radio_button_checked-black.svg") no-repeat center;
-  background-size: contain;
-}
-.filters .book::before {
-  background: url("./assets/radio_button_unchecked-black.svg") no-repeat center;
-  background-size: contain;
-}
-.filters input:checked + .book::before {
-  background: url("./assets/radio_button_checked-black.svg") no-repeat center;
-  background-size: contain;
-}
-.filters .comic::before {
-  background: url("./assets/radio_button_unchecked-black.svg") no-repeat center;
-  background-size: contain;
-}
-.filters input:checked + .comic::before {
-  background: url("./assets/radio_button_checked-black.svg") no-repeat center;
-  background-size: contain;
-}
-.filters .videogame::before {
-  background: url("./assets/radio_button_unchecked-black.svg") no-repeat center;
-  background-size: contain;
-}
-.filters input:checked + .videogame::before {
-  background: url("./assets/radio_button_checked-black.svg") no-repeat center;
-  background-size: contain;
-}
+
 .movie .card-type,
-.movie.button {
-  background-color: #E4C8DD;
+.movie.label {
+  background-color: var(--movie-background);
 }
-.movie .card-type{
-  background-image: url("./assets/movie-black.svg");
+
+.movie .card-type {
+  background-image: var(--movie-icon);
 }
+
 .tvshow .card-type,
-.tvshow.button {
-  background-color: #92C9DD;
+.tvshow.label {
+  background-color: var(--tvshow-background);
 }
-.tvshow .card-type{
-  background-image: url("./assets/tv-black.svg");
+
+.tvshow .card-type {
+  background-image: var(--tvshow-icon);
 }
+
 .book .card-type,
-.book.button {
-  background-color: #15C8CB;
+.book.label {
+  background-color: var(--book-background);
 }
+
 .book .card-type {
-  background-image: url("./assets/book-black.svg");
+  background-image: var(--book-icon);
 }
+
 .comic .card-type,
-.comic.button {
-  background-color: #F4C27C;
+.comic.label {
+  background-color: var(--comic-background);
 }
+
 .comic .card-type {
-  background-image: url("./assets/comic-black.svg");
+  background-image: var(--comic-icon);
 }
+
 .videogame .card-type,
-.videogame.button {
-  background-color: #EB8984;
+.videogame.label {
+  background-color: var(--videogame-background);
 }
+
 .videogame .card-type {
-  background-image: url("./assets/videogame-black.svg");
+  background-image: var(--videogame-icon);
 }
+
 .card-type {
   grid-column-start: 1;
   grid-column-end: 2;
   display: grid;
   grid-row-start: 1;
   grid-row-end: 3;
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
+
 .card-title {
   padding: 1rem;
 }
+
 .card-meta {
   display: flex;
   flex-wrap: wrap;
-  border-top: 2px solid #999;
+  border-top: 2px solid var(--border-background );
   padding: .5rem 1rem;
   align-items: center;
   justify-content: space-between;
   grid-column-start: 2;
   grid-column-end: 2;
   font-size: .75rem;
-}
-.card-meta {
   white-space: nowrap;
 }
 
@@ -180,17 +184,18 @@ input {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: white;
+  background: var(--sticky-background);
   padding: 1rem;
   height: fit-content;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, .25)
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
 }
 
 .filtered .sw-item {
   display: none;
 }
+
 .filtered .sw-item.visible {
   display: block;
 }
