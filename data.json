@@ -253,10 +253,440 @@
     "type": "videogame",
     "title": "Star Wars Jedi: Fallen Order",
     "releaseDate": 2019,
-    "chronoDate": -5,
-    "developer": "Respawn Entertainment",
-    "platforms": ["PC", "PS4", "Xbox One"],
+    "chronoDate": 14,
+    "developer": "Respawn Entertainment, Motive Studios",
+    "platforms": ["PC","PS4","PS5","Xbox One","Xbox Series X/S","Xbox Cloud Gaming"],
     "rating": "T",
     "era": "Reign of the Empire"
+  },
+  {
+    "type": "videogame",
+    "title": "Star Wars Jedi: Survivor",
+    "releaseDate": 2023,
+    "chronoDate": 9,
+    "developer": "Respawn Entertainment",
+    "platforms": ["Xbox Series X/S","PS5","PC","Xbox One","PS4"],
+    "rating": "T",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "videogame",
+    "title": "Vader Immortal: A Star Wars VR Series",
+    "releaseDate": 2019,
+    "chronoDate": 1,
+    "developer": "ILMxLAB",
+    "platforms": ["Oculus Quest 2 & Rift", "PS VR"],
+    "rating": "T",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "videogame",
+    "title": "Star Wars Outlaws",
+    "releaseDate": 2024,
+    "chronoDate": 3,
+    "developer": "Massive Entertainment",
+    "platforms": ["PC", "PS5", "Xbox Series X/S"],
+    "rating": "13+",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "videogame",
+    "title": "Star Wars: Battlefront 2",
+    "releaseDate": 2017,
+    "chronoDate": 32,
+    "developer": "DICE, Motive Studios, Criterion Games",
+    "platforms": ["PC","PS4","Xbox One","Xbox Cloud Gaming"],
+    "rating": "13+",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "videogame",
+    "title": "Star Wars: Squadrons",
+    "releaseDate": 2020,
+    "chronoDate": 4,
+    "developer": "Motive Studio",
+    "platforms": ["PC","PS4","Xbox One","Xbox Series X/S","Xbox Cloud Gaming"],
+    "rating": "T",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "videogame",
+    "title": "Star Wars: Hunters",
+    "releaseDate": 2024,
+    "chronoDate": 9,
+    "developer": "Zynga, NaturalMotion",
+    "platforms": ["iOS","iPadOS","Android","Nintendo Switch","Personal computer","Steam"],
+    "rating": "T",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "videogame",
+    "title": "Star Wars: Droid Repair Bay",
+    "releaseDate": 2017,
+    "chronoDate": 34,
+    "developer": "ILMxLAB",
+    "platforms": ["PC"],
+    "rating": "T",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "videogame",
+    "title": "Star Wars: Tales from the Galaxy's Edge",
+    "releaseDate": 2020,
+    "chronoDate": 34,
+    "developer": "ILMxLAB",
+    "platforms": ["PS5", "PS VR2", "Meta Quest", "Meta Quest 2"],
+    "rating": "",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "videogame",
+    "title": "Star Wars Uprising",
+    "releaseDate": 2015,
+    "chronoDate": 4,
+    "developer": "Kabam",
+    "platforms": ["Android", "iOS"],
+    "rating": "",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "book",
+    "title": "Star Wars: Thrawn",
+    "releaseDate": 2017,
+    "chronoDate": -2,
+    "author": "Timothy Zahn",
+    "pages": 448,
+    "rating": "",
+    "era": "Reign of the Empire"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Quest for the Hidden City",
+    "releaseDate": 2022,
+    "chronoDate": -382,
+    "author": "George Mann",
+    "pages": 240,
+    "category": "OJN",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Convergence",
+    "releaseDate": 2022,
+    "chronoDate": -382,
+    "author": "Zoraida Córdova",
+    "pages": 336,
+    "category": "ON",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Path of Deceit",
+    "releaseDate": 2022,
+    "chronoDate": -382,
+    "author": "Tessa Gratton, Justina Ireland",
+    "pages": 352,
+    "category": "YA",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: The Battle of Jedha",
+    "releaseDate": 2022,
+    "chronoDate": -382,
+    "author": "George Mann",
+    "pages": 304,
+    "category": "S",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Quest for Planet X",
+    "releaseDate": 2023,
+    "chronoDate": -382,
+    "author": "Tessa Gratton",
+    "pages": 288,
+    "category": "OJR",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Path of Vengeance",
+    "releaseDate": 2023,
+    "chronoDate": -382,
+    "author": "Cavan Scott",
+    "pages": 528,
+    "category": "YA",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Cataclysm",
+    "releaseDate": 2023,
+    "chronoDate": -382,
+    "author": "Lydia Kang",
+    "pages": 400,
+    "category": "ON",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Jedi Brave in Every Way",
+    "releaseDate": 2023,
+    "chronoDate": -232,
+    "author": "Charles Soule, Rosemary Soule",
+    "pages": 48,
+    "category": "YR",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Into the Dark",
+    "releaseDate": 2021,
+    "chronoDate": -232,
+    "author": "Claudia Gray",
+    "pages": 352,
+    "category": "YA",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Light of the Jedi",
+    "releaseDate": 2021,
+    "chronoDate": -232,
+    "author": "Charles Soule",
+    "pages": 0,
+    "category": "ON",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: The Great Jedi Rescue",
+    "releaseDate": 2021,
+    "chronoDate": -232,
+    "author": "Charles Soule",
+    "pages": 24,
+    "category": "YR",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: A Test of Courage",
+    "releaseDate": 2021,
+    "chronoDate": -232,
+    "author": "Justina Ireland",
+    "pages": 240,
+    "category": "OJR",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: The Rising Storm",
+    "releaseDate": 2021,
+    "chronoDate": -231,
+    "author": "Cavan Scott",
+    "pages": 336,
+    "category": "ON",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Race to Crashpoint Tower",
+    "releaseDate": 2021,
+    "chronoDate": -231,
+    "author": "Daniel José Older",
+    "pages": 240,
+    "category": "OJR",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Out of the Shadows",
+    "releaseDate": 2021,
+    "chronoDate": -231,
+    "author": "Justina Ireland",
+    "pages": 423,
+    "category": "OJR",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Tempest Runner",
+    "releaseDate": 2021,
+    "chronoDate": -231,
+    "author": "Cavan Scott",
+    "pages": 592,
+    "category": "S",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Mission to Disaster",
+    "releaseDate": 2021,
+    "chronoDate": -230,
+    "author": "Justina Ireland",
+    "pages": 240,
+    "category": "OJR",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Midnight Horizon",
+    "releaseDate": 2022,
+    "chronoDate": -230,
+    "author": "Daniel José Older",
+    "pages": 496,
+    "category": "YA",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: The Fallen Star",
+    "releaseDate": 2022,
+    "chronoDate": -230,
+    "author": "Claudia Gray",
+    "pages": 0,
+    "category": "ON",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Escape from Valo",
+    "releaseDate": 2024,
+    "chronoDate": -229,
+    "author": "Daniel José Older, Alyssa Wong",
+    "pages": 384,
+    "category": "OJR",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: The Eye of Darkness",
+    "releaseDate": 2023,
+    "chronoDate": -229,
+    "author": "George Mann",
+    "pages": 416,
+    "category": "ON",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Defy the Storm",
+    "releaseDate": 2024,
+    "chronoDate": -228,
+    "author": "Tessa Gratton, Justina Ireland",
+    "pages": 464,
+    "category": "YA",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Temptation of the Force",
+    "releaseDate": 2024,
+    "chronoDate": -228,
+    "author": "Tessa Gratton",
+    "pages": 448,
+    "category": "ON",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Tears of the Nameless",
+    "releaseDate": 2024,
+    "chronoDate": -228,
+    "author": "George Mann",
+    "pages": 512,
+    "category": "YA",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Beware the Nameless",
+    "releaseDate": 2024,
+    "chronoDate": -228,
+    "author": "Zoraida Córdova",
+    "pages": 240,
+    "category": "OJR",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Tempest Breaker",
+    "releaseDate": 2025,
+    "chronoDate": -228,
+    "author": "Cavan Scott",
+    "pages": 528,
+    "category": "S",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Trials of the Jedi",
+    "releaseDate": 2025,
+    "chronoDate": -229,
+    "author": "Charles Soule",
+    "pages": 368,
+    "category": "ON",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: Into the Light",
+    "releaseDate": 2025,
+    "chronoDate": -229,
+    "author": "Claudia Gray",
+    "pages": 368,
+    "category": "YA",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The High Republic: A Valiant Vow",
+    "releaseDate": 2025,
+    "chronoDate": -229,
+    "author": "Justina Ireland",
+    "pages": 272,
+    "category": "OJR",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The Vow of Silver Dawn",
+    "releaseDate": 2020,
+    "chronoDate": -200,
+    "author": "His Majesty the King",
+    "pages": 324,
+    "category": "ON",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The Acolyte: Wayseeker",
+    "releaseDate": 2025,
+    "chronoDate": -152,
+    "author": "Justina Ireland",
+    "pages": 400,
+    "category": "ON",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "The Acolyte: The Crystal Crown",
+    "releaseDate": 2025,
+    "chronoDate": -138,
+    "author": "Tessa Gratton",
+    "pages": 416,
+    "category": "ON",
+    "era": "The High Republic"
+  },
+  {
+    "type": "book",
+    "title": "Dooku: Jedi Lost",
+    "releaseDate": 2019,
+    "chronoDate": 23,
+    "author": "Cavan Scott",
+    "pages": 480,
+    "category": "S",
+    "era": ""
   }
 ]
