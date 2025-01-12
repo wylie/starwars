@@ -172,13 +172,15 @@ input:checked + .label::before {
   grid-column-start: 2;
   grid-column-end: 2;
   font-size: .75rem;
-  white-space: nowrap;
   column-gap: 12px;
   row-gap: 6px;
 }
 .card p,
 .card h3 {
   margin: 0;
+}
+.card p {
+  display: flex;
 }
 
 .sticky {
