@@ -26,6 +26,7 @@
 
 html,
 body {
+  font-family: Verdana, Arial, sans-serif;
   font-family: "Lexend", serif;
   font-size: 16px;
   line-height: 1;
@@ -39,11 +40,27 @@ body {
 
 /* WRAPPER */
 .wrapper {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   position: relative;
   padding: 0 1rem 1rem;
   gap: 1.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 0 1rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .wrapper {
+    max-width: 800px;
+    grid-template-columns: 1fr 2fr;
+  }
 }
 
 /* HEADER */
@@ -63,6 +80,11 @@ body {
   border-bottom: 1px solid black;
   margin: 0;
   font-weight: 400;
+}
+@media screen and (min-width: 1000px) {
+  .sticky .title {
+    padding-bottom: .25rem;
+  }
 }
 
 h2 {
