@@ -195,10 +195,10 @@ input:checked + .label::before {
   box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
 }
 
-.filtered .sw-item {
+.sw-item {
   display: none;
 }
 
-.filtered .sw-item.visible {
+.sw-item.visible {
   display: block;
 }
