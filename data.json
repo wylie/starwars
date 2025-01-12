@@ -7,7 +7,8 @@
     "director": "George Lucas",
     "length": 121,
     "rating": "pg",
-    "era": "Age of Rebellion"
+    "era": "Age of Rebellion",
+    "visible": true
   },
   {
     "type": "movie",
@@ -17,7 +18,8 @@
     "director": "Irvin Kershner",
     "length": 124,
     "rating": "pg",
-    "era": "Age of Rebellion"
+    "era": "Age of Rebellion",
+    "visible": true
   },
   {
     "type": "movie",
@@ -27,7 +29,8 @@
     "director": "Richard Marquand",
     "length": 135,
     "rating": "pg",
-    "era": "Age of Rebellion"
+    "era": "Age of Rebellion",
+    "visible": true
   },
   {
     "type": "movie",
@@ -37,7 +40,8 @@
     "director": "George Lucas",
     "length": 0,
     "rating": "pg",
-    "era": "Fall of the Jedi"
+    "era": "Fall of the Jedi",
+    "visible": true
   },
   {
     "type": "movie",
@@ -47,7 +51,8 @@
     "director": "George Lucas",
     "length": 0,
     "rating": "pg",
-    "era": "Fall of the Jedi"
+    "era": "Fall of the Jedi",
+    "visible": true
   },
   {
     "type": "movie",
@@ -57,7 +62,8 @@
     "director": "George Lucas",
     "length": 0,
     "rating": "pg-13",
-    "era": "Fall of the Jedi"
+    "era": "Fall of the Jedi",
+    "visible": true
   },
   {
     "type": "movie",
@@ -67,7 +73,8 @@
     "director": "J. J. Abrams",
     "length": 0,
     "rating": "pg-13",
-    "era": "Rise of the First Order"
+    "era": "Rise of the First Order",
+    "visible": true
   },
   {
     "type": "movie",
@@ -77,7 +84,8 @@
     "director": "Rian Johnson",
     "length": 0,
     "rating": "pg-13",
-    "era": "Rise of the First Order"
+    "era": "Rise of the First Order",
+    "visible": true
   },
   {
     "type": "movie",
@@ -87,7 +95,8 @@
     "director": "J. J. Abrams",
     "length": 0,
     "rating": "pg-13",
-    "era": "Rise of the First Order"
+    "era": "Rise of the First Order",
+    "visible": true
   },
   {
     "type": "movie",
@@ -97,7 +106,8 @@
     "director": "",
     "length": 0,
     "rating": "pg",
-    "era": "Fall of the Jedi"
+    "era": "Fall of the Jedi",
+    "visible": true
   },
   {
     "type": "tvshow",
@@ -107,7 +117,8 @@
     "director": "",
     "length": 0,
     "rating": "",
-    "era": "Fall of the Jedi"
+    "era": "Fall of the Jedi",
+    "visible": true
   },
   {
     "type": "tvshow",
@@ -117,7 +128,8 @@
     "director": "",
     "length": 0,
     "rating": "",
-    "era": "Fall of the Jedi"
+    "era": "Fall of the Jedi",
+    "visible": true
   },
   {
     "type": "tvshow",
@@ -127,7 +139,8 @@
     "director": "",
     "length": 0,
     "rating": "",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "tvshow",
@@ -137,7 +150,8 @@
     "director": "",
     "length": 0,
     "rating": "",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "tvshow",
@@ -147,7 +161,8 @@
     "director": "",
     "length": 0,
     "rating": "",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "movie",
@@ -157,7 +172,8 @@
     "director": "",
     "length": 0,
     "rating": "",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "tvshow",
@@ -167,7 +183,8 @@
     "director": "",
     "length": 0,
     "rating": "",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "tvshow",
@@ -177,7 +194,8 @@
     "director": "",
     "length": 0,
     "rating": "",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "tvshow",
@@ -187,7 +205,8 @@
     "director": "",
     "length": 0,
     "rating": "",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "movie",
@@ -197,7 +216,8 @@
     "director": "",
     "length": 0,
     "rating": "",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "tvshow",
@@ -207,7 +227,8 @@
     "director": "",
     "length": 0,
     "rating": "",
-    "era": "The New Republic"
+    "era": "The New Republic",
+    "visible": true
   },
   {
     "type": "tvshow",
@@ -217,7 +238,8 @@
     "director": "",
     "length": 0,
     "rating": "",
-    "era": "The New Republic"
+    "era": "The New Republic",
+    "visible": true
   },
   {
     "type": "tvshow",
@@ -227,7 +249,8 @@
     "director": "",
     "length": 0,
     "rating": "",
-    "era": "The New Republic"
+    "era": "The New Republic",
+    "visible": true
   },
   {
     "type": "comic",
@@ -237,7 +260,8 @@
     "author": "Kieron Gillen",
     "pages": 25,
     "rating": "",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "book",
@@ -247,7 +271,8 @@
     "author": "Timothy Zahn",
     "pages": 448,
     "rating": "",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "videogame",
@@ -257,7 +282,8 @@
     "developer": "Respawn Entertainment, Motive Studios",
     "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X/S", "Xbox Cloud Gaming"],
     "rating": "T",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "videogame",
@@ -267,7 +293,8 @@
     "developer": "Respawn Entertainment",
     "platforms": ["Xbox Series X/S", "PS5", "PC", "Xbox One", "PS4"],
     "rating": "T",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "videogame",
@@ -277,7 +304,8 @@
     "developer": "ILMxLAB",
     "platforms": ["Oculus Quest 2 & Rift", "PS VR"],
     "rating": "T",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "videogame",
@@ -287,7 +315,8 @@
     "developer": "Massive Entertainment",
     "platforms": ["PC", "PS5", "Xbox Series X/S"],
     "rating": "13+",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "videogame",
@@ -297,7 +326,8 @@
     "developer": "DICE, Motive Studios, Criterion Games",
     "platforms": ["PC", "PS4", "Xbox One", "Xbox Cloud Gaming"],
     "rating": "13+",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "videogame",
@@ -307,7 +337,8 @@
     "developer": "Motive Studio",
     "platforms": ["PC", "PS4", "Xbox One", "Xbox Series X/S", "Xbox Cloud Gaming"],
     "rating": "T",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "videogame",
@@ -317,7 +348,8 @@
     "developer": "Zynga, NaturalMotion",
     "platforms": ["iOS", "iPadOS", "Android", "Nintendo Switch", "Personal computer", "Steam"],
     "rating": "T",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "videogame",
@@ -327,7 +359,8 @@
     "developer": "ILMxLAB",
     "platforms": ["PC"],
     "rating": "T",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "videogame",
@@ -337,7 +370,8 @@
     "developer": "ILMxLAB",
     "platforms": ["PS5", "PS VR2", "Meta Quest", "Meta Quest 2"],
     "rating": "",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "videogame",
@@ -347,7 +381,8 @@
     "developer": "Kabam",
     "platforms": ["Android", "iOS"],
     "rating": "",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "book",
@@ -357,7 +392,8 @@
     "author": "Timothy Zahn",
     "pages": 448,
     "rating": "",
-    "era": "Reign of the Empire"
+    "era": "Reign of the Empire",
+    "visible": true
   },
   {
     "type": "book",
@@ -367,7 +403,8 @@
     "author": "George Mann",
     "pages": 240,
     "category": "OJN",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -377,7 +414,8 @@
     "author": "Zoraida Córdova",
     "pages": 336,
     "category": "ON",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -387,7 +425,8 @@
     "author": "Tessa Gratton, Justina Ireland",
     "pages": 352,
     "category": "YA",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -397,7 +436,8 @@
     "author": "George Mann",
     "pages": 304,
     "category": "S",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -407,7 +447,8 @@
     "author": "Tessa Gratton",
     "pages": 288,
     "category": "OJR",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -417,7 +458,8 @@
     "author": "Cavan Scott",
     "pages": 528,
     "category": "YA",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -427,7 +469,8 @@
     "author": "Lydia Kang",
     "pages": 400,
     "category": "ON",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -437,7 +480,8 @@
     "author": "Charles Soule, Rosemary Soule",
     "pages": 48,
     "category": "YR",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -447,7 +491,8 @@
     "author": "Claudia Gray",
     "pages": 352,
     "category": "YA",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -457,7 +502,8 @@
     "author": "Charles Soule",
     "pages": 0,
     "category": "ON",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -467,7 +513,8 @@
     "author": "Charles Soule",
     "pages": 24,
     "category": "YR",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -477,7 +524,8 @@
     "author": "Justina Ireland",
     "pages": 240,
     "category": "OJR",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -487,7 +535,8 @@
     "author": "Cavan Scott",
     "pages": 336,
     "category": "ON",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -497,7 +546,8 @@
     "author": "Daniel José Older",
     "pages": 240,
     "category": "OJR",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -507,7 +557,8 @@
     "author": "Justina Ireland",
     "pages": 423,
     "category": "OJR",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -517,7 +568,8 @@
     "author": "Cavan Scott",
     "pages": 592,
     "category": "S",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -527,7 +579,8 @@
     "author": "Justina Ireland",
     "pages": 240,
     "category": "OJR",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -537,7 +590,8 @@
     "author": "Daniel José Older",
     "pages": 496,
     "category": "YA",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -547,7 +601,8 @@
     "author": "Claudia Gray",
     "pages": 0,
     "category": "ON",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -557,7 +612,8 @@
     "author": "Daniel José Older, Alyssa Wong",
     "pages": 384,
     "category": "OJR",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -567,7 +623,8 @@
     "author": "George Mann",
     "pages": 416,
     "category": "ON",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -577,7 +634,8 @@
     "author": "Tessa Gratton, Justina Ireland",
     "pages": 464,
     "category": "YA",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -587,7 +645,8 @@
     "author": "Tessa Gratton",
     "pages": 448,
     "category": "ON",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -597,7 +656,8 @@
     "author": "George Mann",
     "pages": 512,
     "category": "YA",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -607,7 +667,8 @@
     "author": "Zoraida Córdova",
     "pages": 240,
     "category": "OJR",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -617,7 +678,8 @@
     "author": "Cavan Scott",
     "pages": 528,
     "category": "S",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -627,7 +689,8 @@
     "author": "Charles Soule",
     "pages": 368,
     "category": "ON",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -637,7 +700,8 @@
     "author": "Claudia Gray",
     "pages": 368,
     "category": "YA",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -647,7 +711,8 @@
     "author": "Justina Ireland",
     "pages": 272,
     "category": "OJR",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -657,7 +722,8 @@
     "author": "His Majesty the King",
     "pages": 324,
     "category": "ON",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -667,7 +733,8 @@
     "author": "Justina Ireland",
     "pages": 400,
     "category": "ON",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -677,7 +744,8 @@
     "author": "Tessa Gratton",
     "pages": 416,
     "category": "ON",
-    "era": "The High Republic"
+    "era": "The High Republic",
+    "visible": true
   },
   {
     "type": "book",
@@ -687,6 +755,7 @@
     "author": "Cavan Scott",
     "pages": 480,
     "category": "S",
-    "era": ""
+    "era": "",
+    "visible": true
   }
 ]
