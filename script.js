@@ -65,7 +65,6 @@ async function fetchData() {
     const jsonData = await response.json();
     
     data = [...data, ...jsonData];
-    // console.log('Fetched data:', data); // Log fetched data
   }
   catch (error) {
     console.error(error);
@@ -90,6 +89,8 @@ function checkboxCheck() {
 // sort the data by release or chronological date
 // TODO: when you filter, then sort, then add another filter, the new
 // data is not sorted correctly, it's applied to the end of the list
+// TODO: be able to sort alphabetically by title
+// TODO: add reverse to sort button
 function sortData(sortBy) {
   checkboxCheck(); // Ensure visibility is updated before sorting
   const sortedData = data.filter(item => item.visible).sort((a, b) => {
