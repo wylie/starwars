@@ -255,7 +255,7 @@
     "releaseDate": 2019,
     "chronoDate": 14,
     "developer": "Respawn Entertainment, Motive Studios",
-    "platforms": ["PC","PS4","PS5","Xbox One","Xbox Series X/S","Xbox Cloud Gaming"],
+    "platforms": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X/S", "Xbox Cloud Gaming"],
     "rating": "T",
     "era": "Reign of the Empire"
   },
@@ -265,7 +265,7 @@
     "releaseDate": 2023,
     "chronoDate": 9,
     "developer": "Respawn Entertainment",
-    "platforms": ["Xbox Series X/S","PS5","PC","Xbox One","PS4"],
+    "platforms": ["Xbox Series X/S", "PS5", "PC", "Xbox One", "PS4"],
     "rating": "T",
     "era": "Reign of the Empire"
   },
@@ -295,7 +295,7 @@
     "releaseDate": 2017,
     "chronoDate": 32,
     "developer": "DICE, Motive Studios, Criterion Games",
-    "platforms": ["PC","PS4","Xbox One","Xbox Cloud Gaming"],
+    "platforms": ["PC", "PS4", "Xbox One", "Xbox Cloud Gaming"],
     "rating": "13+",
     "era": "Reign of the Empire"
   },
@@ -305,7 +305,7 @@
     "releaseDate": 2020,
     "chronoDate": 4,
     "developer": "Motive Studio",
-    "platforms": ["PC","PS4","Xbox One","Xbox Series X/S","Xbox Cloud Gaming"],
+    "platforms": ["PC", "PS4", "Xbox One", "Xbox Series X/S", "Xbox Cloud Gaming"],
     "rating": "T",
     "era": "Reign of the Empire"
   },
@@ -315,7 +315,7 @@
     "releaseDate": 2024,
     "chronoDate": 9,
     "developer": "Zynga, NaturalMotion",
-    "platforms": ["iOS","iPadOS","Android","Nintendo Switch","Personal computer","Steam"],
+    "platforms": ["iOS", "iPadOS", "Android", "Nintendo Switch", "Personal computer", "Steam"],
     "rating": "T",
     "era": "Reign of the Empire"
   },
