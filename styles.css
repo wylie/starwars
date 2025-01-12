@@ -50,7 +50,7 @@ body {
 
 @media screen and (min-width: 600px) {
   .wrapper {
-    max-width: 600px;
+    max-width: 568px;
     margin: 0 auto;
     padding: 0 0 1rem;
   }
@@ -233,4 +233,26 @@ input:checked + .label::before {
   font-size: .75rem;
   column-gap: 12px;
   row-gap: 6px;
+}
+
+#support {
+  display: none;
+}
+
+@media screen and (min-width: 1000px) {
+  #starwars {
+    margin-top: 1rem;
+  }
+  
+  #support {
+    display: flex;
+    align-content: center;
+    border-top: 1px solid var(--border-background);
+    margin-top: 1rem;
+    padding-top: .5rem;
+  }
+  
+  #support a:not(:first-child) {
+    margin-left: .5rem;
+  }
 }
