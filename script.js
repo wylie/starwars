@@ -51,8 +51,10 @@ function itemCard(item) {
         ${item.pages ? `<p><strong>Pages:&nbsp;</strong>${item.pages}</p>` : ""}
         ${item.platforms ? `<p><strong>Platforms:&nbsp;</strong>${item.platforms}</p>` : ""}
         ${item.episodes ? `<p><strong>Episodes:&nbsp;</strong>${item.episodes}</p>` : ""}
+        ${item.length ? `<p><strong>Length:&nbsp;</strong>${item.length} minutes</p>` : ""}
         ${item.developer ? `<p><strong>Developer:&nbsp;</strong>${item.developer}</p>` : ""}
         ${item.category ? `<p><strong>Category:&nbsp;</strong>${item.category}</p>` : ""}
+        ${item.rating ? `<p><strong>Rating:&nbsp;</strong>${item.rating}</p>` : ""}
         ${item.releaseDate ? `<p><strong>Release Year:&nbsp;</strong>${new Date(item.releaseDate).getFullYear()}</p>` : ""}
         ${item.byDate ? `<p>${byDate}</p>` : ""}
       </div>
