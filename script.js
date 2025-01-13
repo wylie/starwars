@@ -42,17 +42,19 @@ function itemCard(item) {
       <div class="card-type" title=${type}></div>
       <div class="card-title">
         <h3>${item.title}</h3>
-      </div>
-      <div class="card-meta">
-        <p><strong>Era:&nbsp;</strong>${item.era}</p>
-        ${item.pages ? `<p><strong>Pages:&nbsp;</strong>${item.pages}</p>` : ""}
-        ${item.category ? `<p><strong>Category:&nbsp;</strong>${item.category}</p>` : ""}
-        ${item.platforms ? `<p><strong>Platforms:&nbsp;</strong>${item.platforms}</p>` : ""}
+        ${item.description ? `<p><strong>Description:&nbsp;</strong>${item.description}</p>` : ""}
         ${item.director ? `<p><strong>Director:&nbsp;</strong>${item.director}</p>` : ""}
+        ${item.author ? `<p><strong>Author:&nbsp;</strong>${item.author}</p>` : ""}
+        </div>
+        <div class="card-meta">
+        ${item.era ? `<p><strong>Era:&nbsp;</strong>${item.era}</p>` : ""}
+        ${item.pages ? `<p><strong>Pages:&nbsp;</strong>${item.pages}</p>` : ""}
+        ${item.platforms ? `<p><strong>Platforms:&nbsp;</strong>${item.platforms}</p>` : ""}
         ${item.episodes ? `<p><strong>Episodes:&nbsp;</strong>${item.episodes}</p>` : ""}
         ${item.developer ? `<p><strong>Developer:&nbsp;</strong>${item.developer}</p>` : ""}
-        <p><strong>Release Year:&nbsp;</strong>${new Date(item.releaseDate).getFullYear()}</p>
-        <p>${byDate}</p>
+        ${item.category ? `<p><strong>Category:&nbsp;</strong>${item.category}</p>` : ""}
+        ${item.releaseDate ? `<p><strong>Release Year:&nbsp;</strong>${new Date(item.releaseDate).getFullYear()}</p>` : ""}
+        ${item.byDate ? `<p>${byDate}</p>` : ""}
       </div>
     </div>
   `)
