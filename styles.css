@@ -1,11 +1,13 @@
 @font-face {
   font-family: Lexend;
-  src: url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Open+Sans:wght@800&display=swap');
+  src: url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;900&family=Open+Sans:wght@800&display=swap');
 }
 
 :root {
   --label-background: #ccc;
-  --card-background: #efefef;
+  --card-background: #eee;
+  --card-meta-background: #ddd;
+  --card-meta-border: #ccc;
   --text-color: #000;
   --border-background: #999;
   --sticky-background: #fff;
@@ -26,17 +28,17 @@
 
 html,
 body {
-  font-family: Verdana, Arial, sans-serif;
   font-family: "Lexend", serif;
   font-size: 16px;
-  line-height: 1;
   margin: 0;
 }
 
 body {
-  background: #000 url("./assets/stars.webp") fixed top left;
-  background-position: center;
-  background-size: 500px;
+  background-color: #000;
+  background-attachment: fixed;
+  background-image: url(./assets/stars.webp);
+  background-position: top left;
+  background-size: cover;
 }
 
 /* WRAPPER */
@@ -49,9 +51,9 @@ body {
   gap: 1.5rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 632px) {
   .wrapper {
-    max-width: 568px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 0 0 1rem;
   }
@@ -69,7 +71,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: var(--sticky-background);
+  background-color: var(--sticky-background);
   padding: 1rem;
   height: fit-content;
   border-bottom-left-radius: 10px;
@@ -82,7 +84,7 @@ body {
   margin: 0;
   font-weight: 400;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .sticky .title {
     padding-bottom: .25rem;
   }
@@ -107,7 +109,8 @@ fieldset {
 
 .label {
   display: inline-flex;
-  background: var(--label-background);
+  align-items: center;
+  background-color: var(--label-background);
   color: black;
   cursor: pointer;
   border-radius: 25px;
@@ -145,22 +148,23 @@ input:checked + .label::before {
 /* CARD */
 .card {
   display: grid;
-  background: var(--card-background);
+  background-color: var(--card-background);
   border-radius: 10px;
   margin: 0 auto 1.5rem;
   grid-template-columns: 75px 1fr;
   grid-template-rows: 1fr auto;
 }
-.card p,
 .card h3 {
   margin: 0;
   font-weight: 400;
-}
-.card h3 {
   line-height: 1.25;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 4px;
 }
 
 .card p {
+  margin: 0;
+  font-weight: 400;
   display: flex;
 }
 
@@ -225,10 +229,14 @@ input:checked + .label::before {
   padding: 1rem;
 }
 
+.card-title p {
+  font-size: .8125rem;
+}
+
 .card-meta {
   display: flex;
   flex-wrap: wrap;
-  border-top: 2px solid var(--border-background );
+  border-top: 1px solid var(--card-meta-border);
   padding: .5rem 1rem;
   align-items: center;
   justify-content: space-between;
@@ -237,13 +245,15 @@ input:checked + .label::before {
   font-size: .75rem;
   column-gap: 12px;
   row-gap: 6px;
+  background-color: var(--card-meta-background);
+  border-bottom-right-radius: 10px;
 }
 
 #support {
   display: none;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   #starwars {
     margin-top: 1rem;
   }
