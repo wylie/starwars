@@ -35,7 +35,9 @@ function itemCard(item) {
       break;
     default:
       byDate = `<strong>BBY:&nbsp;</strong>${bbyDate}`;
+      break;
   }
+
   // return the card
   return (`
     <div class="card">
@@ -45,6 +47,8 @@ function itemCard(item) {
         ${item.description ? `<p><strong>Description:&nbsp;</strong>${item.description}</p>` : ""}
         ${item.director ? `<p><strong>Director:&nbsp;</strong>${item.director}</p>` : ""}
         ${item.author ? `<p><strong>Author:&nbsp;</strong>${item.author}</p>` : ""}
+        ${item.creator ? `<p><strong>Creator:&nbsp;</strong>${item.creator}</p>` : ""}
+        ${item.developer ? `<p><strong>Developer:&nbsp;</strong>${item.developer}</p>` : ""}
         </div>
         <div class="card-meta">
         ${item.era ? `<p><strong>Era:&nbsp;</strong>${item.era}</p>` : ""}
@@ -52,11 +56,10 @@ function itemCard(item) {
         ${item.platforms ? `<p><strong>Platforms:&nbsp;</strong>${item.platforms}</p>` : ""}
         ${item.episodes ? `<p><strong>Episodes:&nbsp;</strong>${item.episodes}</p>` : ""}
         ${item.length ? `<p><strong>Length:&nbsp;</strong>${item.length} minutes</p>` : ""}
-        ${item.developer ? `<p><strong>Developer:&nbsp;</strong>${item.developer}</p>` : ""}
         ${item.category ? `<p><strong>Category:&nbsp;</strong>${item.category}</p>` : ""}
         ${item.rating ? `<p><strong>Rating:&nbsp;</strong>${item.rating}</p>` : ""}
         ${item.releaseDate ? `<p><strong>Release Year:&nbsp;</strong>${new Date(item.releaseDate).getFullYear()}</p>` : ""}
-        ${item.byDate ? `<p>${byDate}</p>` : ""}
+        <p>${byDate}</p>
       </div>
     </div>
   `)
