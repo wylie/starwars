@@ -34,11 +34,8 @@ body {
 }
 
 body {
-  background-color: #000;
-  background-attachment: fixed;
-  background-image: url(./assets/stars.webp);
-  background-position: top left;
-  background-size: cover;
+  background: #000 url("./assets/stars.webp") fixed top left;
+  background-size: 50%;  
 }
 
 /* WRAPPER */
