@@ -21,3 +21,12 @@ Contributions are welcome! If you have any information that can help make this t
 
 May the Force be with you!
 
+---
+
+If you don't already have `http-server` installed, run:
+
+`npm install --global http-server`
+
+Then run:
+
+`http-server`
