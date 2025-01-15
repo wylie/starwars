@@ -228,6 +228,11 @@ input:checked + .label::before {
 
 .card-title p {
   font-size: .8125rem;
+  line-height: 1.5;
+}
+
+.card-title p:not(:first-of-type) {
+  margin-top: .5rem;
 }
 
 .card-meta {

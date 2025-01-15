@@ -49,6 +49,7 @@ function itemCard(item) {
         ${item.author ? `<p><strong>Author:&nbsp;</strong>${item.author}</p>` : ""}
         ${item.creator ? `<p><strong>Creator:&nbsp;</strong>${item.creator}</p>` : ""}
         ${item.developer ? `<p><strong>Developer:&nbsp;</strong>${item.developer}</p>` : ""}
+        ${item.synopsis ? `<p><strong>Synopsis:&nbsp;</strong>${item.synopsis}</p>` : ""}
         </div>
         <div class="card-meta">
         ${item.era ? `<p><strong>Era:&nbsp;</strong>${item.era}</p>` : ""}
