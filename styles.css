@@ -156,8 +156,9 @@ input:checked + .label::before {
   background-color: var(--card-background);
   border-radius: 10px;
   margin: 0 auto 1.5rem;
-  grid-template-columns: 75px 1fr;
+  grid-template-columns: 50px 1fr;
   grid-template-rows: 1fr auto;
+  transform: all .5s;
 }
 .card h3 {
   margin: 0;
@@ -214,7 +215,8 @@ input:checked + .label::before {
   justify-content: center;
   display: flex;
   align-items: center;
-  font-size: 60px;
+  font-size: 40px;
+  transform: all .5s;
   font-variation-settings:
     'FILL' 0,
     'wght' 200,
@@ -339,6 +341,14 @@ input:checked + .label::before {
   }
 }
 
+@media screen and (min-width: 600px) {
+  .card {
+    grid-template-columns: 75px 1fr;
+  }
+  .card-type.icon {
+    font-size: 60px;
+  }
+}
 @media screen and (min-width: 1200px) {
   #starwars {
     margin-top: 1rem;
