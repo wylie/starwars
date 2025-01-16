@@ -247,10 +247,11 @@ input:checked + .label::before {
 .card-title .resize {
   position: absolute;
   bottom: 0;
-  left: 30px;
+  left: 24px;
   background: none;
   border: 0;
   cursor: pointer;
+  color: var(--text-color);
 }
 
 .card-meta {
@@ -310,9 +311,16 @@ input:checked + .label::before {
     display: flex;
     align-items: center;
     margin-top: .5rem;
+    flex-wrap: wrap;
+    gap: .5rem;
   }
   .sort fieldset {
-    margin-left: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+  }
+  .sort .label {
+    white-space: nowrap;
   }
   .sort .label,
   .sort h2,
@@ -323,7 +331,6 @@ input:checked + .label::before {
     display: flex;
     margin: 0;
     white-space: nowrap;
-    margin-left: 4px;
   }
   .filter .label:first-of-type {
     margin-left: 1rem;
