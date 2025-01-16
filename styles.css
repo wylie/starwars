@@ -333,9 +333,6 @@ input:checked + .label::before {
     margin: 0;
     white-space: nowrap;
   }
-  .filter .label:first-of-type {
-    margin-left: 1rem;
-  }
   #support {
     margin-top: .5rem;
     padding-top: .5rem;
