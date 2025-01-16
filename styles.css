@@ -278,20 +278,35 @@ input:checked + .label::before {
 }
 
 #support {
-  display: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid var(--border-background);
+  margin-top: 1rem;
+  padding-top: 1rem;
 }
-
+#support .icon {
+  font-size: 24px;
+  line-height: 0;
+}
+#support .icon:nth-child(2) {
+  margin-left: .5rem;
+}
+#support img {
+  height: 20px;
+}
 @media screen and (min-width: 1200px) {
   #starwars {
     margin-top: 1rem;
   }
-  
-  #support {
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    border-top: 1px solid var(--border-background);
-    margin-top: 1rem;
-    padding-top: .5rem;
+  #support .icon {
+    font-size: 36px;
   }
-}
+  #support .icon:nth-child(2) {
+    margin-left: 1rem;
+  }
+  #support img {
+    height: 32px;
+  }
+  }
+  
