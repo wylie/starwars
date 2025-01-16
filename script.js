@@ -2,21 +2,27 @@
 function itemCard(item) {
   // replace slugs with nicer titles
   let type = "";
+  let typeIcon = "";
   switch(item.type) {
     case "movie":
       type = "Movie";
+      typeIcon = "movie";
       break;
     case "tvshow":
       type = "TV Show";
+      typeIcon = "tv_gen";
       break;
     case "comic":
       type = "Comic";
+      typeIcon = "comic_bubble";
       break;
     case "book":
       type = "Book";
+      typeIcon = "book_2";
       break;
     case "videogame":
       type = "Video Game";
+      typeIcon = "stadia_controller";
       break;
   }
   // remove negative sign from the BBY date
@@ -41,7 +47,7 @@ function itemCard(item) {
   // return the card
   return (`
     <div class="card">
-      <div class="card-type" title=${type}></div>
+      <div class="card-type icon material-symbols-outlined" title=${type}>${typeIcon}</div>
       <div class="card-title">
         <h3>${item.title}</h3>
         ${item.description ? `<p><strong>Description:&nbsp;</strong>${item.description}</p>` : ""}
