@@ -804,28 +804,6 @@
     "synopsis": "Experience the untold story of the Rebel Alliance's daring mission to steal the Death Star plans in 'Rogue One: A Star Wars Story.' Follow Jyn Erso and a ragtag group of rebels as they embark on a dangerous mission to secure the plans and deliver hope to the galaxy. The film explores themes of sacrifice, courage, and the fight for freedom. With intense action, compelling characters, and a gritty portrayal of the Star Wars universe, 'Rogue One' offers a thrilling and emotional journey that bridges the gap between the prequel and original trilogies."
   },
   {
-    "type": "movie",
-    "title": "Solo: A Star Wars Story",
-    "releaseDate": "2018-05-10T00:00:00Z",
-    "chronoDate": -13,
-    "director": "Ron Howard",
-    "length": 135,
-    "rating": "PG-13",
-    "era": "Reign of the Empire",
-    "visible": true
-  },
-  {
-    "type": "movie",
-    "title": "Rogue One: A Star Wars Story",
-    "releaseDate": "2016-12-16T00:00:00Z",
-    "chronoDate": 0,
-    "director": "Gareth Edwards",
-    "length": 134,
-    "rating": "PG-13",
-    "era": "Reign of the Empire",
-    "visible": true
-  },
-  {
     "type": "tvshow",
     "title": "Star Wars: The Clone Wars",
     "releaseDate": "2008-10-03T00:00:00Z",
