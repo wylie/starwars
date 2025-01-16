@@ -295,6 +295,45 @@ input:checked + .label::before {
 #support img {
   height: 20px;
 }
+
+/*  need to fix this to be the default for mobile */
+@media screen and (max-width: 600px) {
+  .sticky {
+    padding: .5rem 1rem;
+  }
+  .sticky .title {
+    line-height: 1;
+    padding-bottom: 0.25rem;
+  }
+  .sort,
+  .filter {
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+  }
+  .sort fieldset {
+    margin-left: 1rem;
+  }
+  .sort .label,
+  .sort h2,
+  .filter h2 {
+    margin: 0;
+  }
+  .filter .label {
+    display: flex;
+    margin: 0;
+    white-space: nowrap;
+    margin-left: 4px;
+  }
+  .filter .label:first-of-type {
+    margin-left: 1rem;
+  }
+  #support {
+    margin-top: .5rem;
+    padding-top: .5rem;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   #starwars {
     margin-top: 1rem;
