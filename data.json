@@ -805,17 +805,6 @@
   },
   {
     "type": "movie",
-    "title": "Star Wars: The Clone Wars",
-    "releaseDate": "2008-08-15T00:00:00Z",
-    "chronoDate": -22,
-    "director": "Dave Filoni",
-    "length": 98,
-    "rating": "PG",
-    "era": "Fall of the Jedi",
-    "visible": true
-  },
-  {
-    "type": "movie",
     "title": "Solo: A Star Wars Story",
     "releaseDate": "2018-05-10T00:00:00Z",
     "chronoDate": -13,
