@@ -235,6 +235,24 @@ input:checked + .label::before {
   margin-top: .5rem;
 }
 
+.card-title .synopsis {
+  position: relative;
+  max-height: 5rem;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+.card-title .synopsis.expanded {
+  max-height: 750px;
+}
+.card-title .resize {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
 .card-meta {
   display: flex;
   flex-wrap: wrap;
@@ -249,6 +267,14 @@ input:checked + .label::before {
   row-gap: 6px;
   background-color: var(--card-meta-background);
   border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  .card-meta {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
 }
 
 #support {
