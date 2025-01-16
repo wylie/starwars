@@ -55,7 +55,12 @@ function itemCard(item) {
         ${item.author ? `<p><strong>Author:&nbsp;</strong>${item.author}</p>` : ""}
         ${item.creator ? `<p><strong>Creator:&nbsp;</strong>${item.creator}</p>` : ""}
         ${item.developer ? `<p><strong>Developer:&nbsp;</strong>${item.developer}</p>` : ""}
-        ${item.synopsis ? `<p><strong>Synopsis:&nbsp;</strong>${item.synopsis}</p>` : ""}
+        ${item.synopsis ? `
+          <div class="synopsis">
+            <p><strong>Synopsis:&nbsp;</strong>${item.synopsis}</p>
+            <button class="material-symbols-outlined resize" title="expand">expand_all</button>
+          </div>
+        ` : ""}
         </div>
         <div class="card-meta">
         ${item.era ? `<p><strong>Era:&nbsp;</strong>${item.era}</p>` : ""}
@@ -129,6 +134,13 @@ const drawPage = (data) => {
   });
 };
 
+function expandCollapse(elem) {
+  const synopsis = elem.parentElement;
+  elem.innerHTML = elem.innerHTML === "expand_all" ? "collapse_all" : "expand_all";
+  elem.setAttribute('title', elem.innerHTML === "expand_all" ? "expand" : "collapse");
+  synopsis.classList.toggle('expanded');
+}
+
 // initial call to fetch and display data
 fetchData().then(() => {
   // read from the HTML so we don't have to change this in two places
@@ -148,4 +160,11 @@ fetchData().then(() => {
   document.getElementById('book').addEventListener('change', () => checkboxCheck("book"));
   document.getElementById('comic').addEventListener('change', () => checkboxCheck("comic"));
   document.getElementById('videogame').addEventListener('change', () => checkboxCheck("videogame"));
+  // expand/collapse the synopsis
+  const resize = document.getElementsByClassName('resize');
+  Array.from(resize).forEach(function(elem) {
+    elem.addEventListener('click', function() {
+      expandCollapse(this);
+    });
+  });
 });
