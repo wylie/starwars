@@ -53,6 +53,7 @@ function itemCard(item) {
         ${item.description ? `<p><strong>Description:&nbsp;</strong>${item.description}</p>` : ""}
         ${item.director ? `<p><strong>Director:&nbsp;</strong>${item.director}</p>` : ""}
         ${item.author ? `<p><strong>Author:&nbsp;</strong>${item.author}</p>` : ""}
+        ${item.writer ? `<p><strong>Writer:&nbsp;</strong>${item.writer}</p>` : ""}
         ${item.creator ? `<p><strong>Creator:&nbsp;</strong>${item.creator}</p>` : ""}
         ${item.developer ? `<p><strong>Developer:&nbsp;</strong>${item.developer}</p>` : ""}
         ${item.synopsis ? `
@@ -64,6 +65,8 @@ function itemCard(item) {
         </div>
         <div class="card-meta">
         ${item.era ? `<p><strong>Era:&nbsp;</strong>${item.era}</p>` : ""}
+        ${item.series ? `<p><strong>Series:&nbsp;</strong>${item.series}</p>` : ""}
+        ${item.issues ? `<p><strong>Issues:&nbsp;</strong>${item.issues}</p>` : ""}
         ${item.pages ? `<p><strong>Pages:&nbsp;</strong>${item.pages}</p>` : ""}
         ${item.platforms ? `<p><strong>Platforms:&nbsp;</strong>${item.platforms}</p>` : ""}
         ${item.episodes ? `<p><strong>Episodes:&nbsp;</strong>${item.episodes}</p>` : ""}
