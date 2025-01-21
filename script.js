@@ -144,6 +144,16 @@ function expandCollapse(elem) {
   synopsis.classList.toggle('expanded');
 }
 
+// expand/collapse the synopsis
+function attachEventListeners() {
+  const resize = document.getElementsByClassName('resize');
+  Array.from(resize).forEach(function(elem) {
+    elem.addEventListener('click', function() {
+      expandCollapse(this);
+    });
+  });
+}
+
 // initial call to fetch and display data
 fetchData().then(() => {
   // read from the HTML so we don't have to change this in two places
@@ -158,16 +168,14 @@ fetchData().then(() => {
   // event listeners
   document.getElementById('releaseDate').addEventListener('change', () => sortData("releaseDate"));
   document.getElementById('chronoDate').addEventListener('change', () => sortData("chronoDate"));
-  document.getElementById('movie').addEventListener('change', () => checkboxCheck("movie"));
-  document.getElementById('tvshow').addEventListener('change', () => checkboxCheck("tvshow"));
-  document.getElementById('book').addEventListener('change', () => checkboxCheck("book"));
-  document.getElementById('comic').addEventListener('change', () => checkboxCheck("comic"));
-  document.getElementById('videogame').addEventListener('change', () => checkboxCheck("videogame"));
-  // expand/collapse the synopsis
-  const resize = document.getElementsByClassName('resize');
-  Array.from(resize).forEach(function(elem) {
-    elem.addEventListener('click', function() {
-      expandCollapse(this);
+
+  document.querySelectorAll('.checkbox').forEach(checkbox => {
+    checkbox.addEventListener('change', function() {
+      checkboxCheck(this.id);
+      attachEventListeners();
     });
   });
+
+  // expand/collapse the synopsis
+  attachEventListeners();
 });
