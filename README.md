@@ -1,8 +1,8 @@
 ![image](https://github.com/user-attachments/assets/c5a6c882-331f-4e5b-8c94-1cd8aa44414e)
 
-# Star Wars Timeline
+# Nerds Timeline: Star Wars
 
-Welcome to the **Star Wars Timeline** repository! This project aims to create a comprehensive timeline of all Star Wars media, including books, movies, TV shows, and more. 
+Welcome to the **Nerds Timeline: Star Wars** repository! This project aims to create a comprehensive timeline of all Star Wars media, including books, movies, TV shows, and more. 
 
 ## Purpose
 
