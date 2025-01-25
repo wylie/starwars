@@ -250,6 +250,11 @@ input:checked + .label::before {
   background-color: var(--card-meta-background);
   border-bottom-right-radius: 10px;
 }
+.card-meta .cat-help,
+.card-meta .era-help,
+.card-meta .aby-bby-help {
+  cursor: help;
+}
 #support {
   display: flex;
   justify-content: flex-start;

@@ -34,15 +34,70 @@ function itemCard(item) {
   let byDate = "";
   switch(item.chronoDate > 0) {
     case true:
-      byDate = `<strong>ABY:&nbsp;</strong>${item.chronoDate} standard years`;
+      byDate = `<strong class="aby-bby-help" title="After the Battle of Yavin">ABY:&nbsp;</strong>${item.chronoDate} standard years`;
       break;
     case false:
-      byDate = `<strong>BBY:&nbsp;</strong>${bbyDate} standard years`;
+      byDate = `<strong class="aby-bby-help" title="Before the Battle of Yavin">BBY:&nbsp;</strong>${bbyDate} standard years`;
       break;
     default:
-      byDate = `<strong>BBY:&nbsp;</strong>${bbyDate}`;
+      byDate = `<strong class="aby-bby-help" title="Before the Battle of Yavin">BBY:&nbsp;</strong>${bbyDate}`;
       break;
   }
+  let catTitle = "";
+  switch(item.category) {
+    case "ON":
+      catTitle = "Original novel";
+      break;
+    case "OJR":
+      catTitle = "Original junior novel";
+      break;
+    case "YA":
+      catTitle = "Young adult novel";
+      break;
+    case "YR":
+      catTitle = "Young reader";
+      break;
+    case "NA":
+      catTitle = "Novel adaptation";
+      break;
+    case "JRA":
+      catTitle = "Junior novel adaptation";
+      break;
+    case "S":
+      catTitle = "Script book";
+      break;
+  }
+  // have to confirm these dates, I'm seeing conflicting ones in different places
+  // let eraTitle = "";
+  // switch(item.era) {
+  //   case "Dawn Of The Jedi":
+  //     eraTitle = "37,000 - 25,000 BBY";
+  //     break;
+  //   case "The Old Republic":
+  //     eraTitle = "25,000 – 1,000 BBY";
+  //     break;
+  //   case "The High Republic":
+  //     eraTitle = "300 – 82 BBY";
+  //     break;
+  //   case "Fall of the Jedi":
+  //     eraTitle = "82 – 19 BBY";
+  //     break;
+  //   case "Reign of the Empire":
+  //     eraTitle = "82 BBY – 19 BBY";
+  //     break;
+  //   case "Age of Rebellion":
+  //     eraTitle = "0 BBY – 4 ABY";
+  //     break;
+  //   case "The New Republic":
+  //     eraTitle = "5 ABY – 34 ABY";
+  //     break;
+  //   case "Rise of the First Order":
+  //     eraTitle = "34 ABY – 35 ABY";
+  //     break;
+  //   case "35 ABY and Beyond":
+  //     eraTitle = "Script book";
+  //     break;
+  // }
 
   // return the card
   return (`
@@ -57,13 +112,12 @@ function itemCard(item) {
         ${item.creator ? `<p><strong>Creator:&nbsp;</strong>${item.creator}</p>` : ""}
         ${item.developer ? `<p><strong>Developer:&nbsp;</strong>${item.developer}</p>` : ""}
         ${item.synopsis ? `
-          <div class="synopsis">
-            <p><strong>Synopsis:&nbsp;</strong>${item.synopsis}</p>
-            <button class="material-symbols-outlined resize" title="expand">expand_all</button>
-          </div>
-        ` : ""}
-        </div>
-        <div class="card-meta">
+        <div class="synopsis">
+          <p><strong>Synopsis:&nbsp;</strong>${item.synopsis}</p>
+          <button class="material-symbols-outlined resize" title="expand">expand_all</button>
+        </div>` : ""}
+      </div>
+      <div class="card-meta">
         ${item.era ? `<p><strong>Era:&nbsp;</strong>${item.era}</p>` : ""}
         ${item.series ? `<p><strong>Series:&nbsp;</strong>${item.series}</p>` : ""}
         ${item.issues ? `<p><strong>Issues:&nbsp;</strong>${item.issues}</p>` : ""}
@@ -71,7 +125,7 @@ function itemCard(item) {
         ${item.platforms ? `<p><strong>Platforms:&nbsp;</strong>${item.platforms}</p>` : ""}
         ${item.episodes ? `<p><strong>Episodes:&nbsp;</strong>${item.episodes}</p>` : ""}
         ${item.length ? `<p><strong>Length:&nbsp;</strong>${item.length} minutes</p>` : ""}
-        ${item.category ? `<p><strong>Category:&nbsp;</strong>${item.category}</p>` : ""}
+        ${item.category ? `<p><strong>Category:&nbsp;</strong><span class="cat-help" title="${catTitle}">${item.category}</span></p>` : ""}
         ${item.rating ? `<p><strong>Rating:&nbsp;</strong>${item.rating}</p>` : ""}
         ${item.releaseDate ? `<p><strong>Release Year:&nbsp;</strong>${new Date(item.releaseDate).getFullYear()}</p>` : ""}
         <p>${byDate}</p>
