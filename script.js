@@ -220,8 +220,14 @@ fetchData().then(() => {
   });
   sortData(sortBy);
   // event listeners
-  document.getElementById('releaseDate').addEventListener('change', () => sortData("releaseDate"));
-  document.getElementById('chronoDate').addEventListener('change', () => sortData("chronoDate"));
+  document.getElementById('releaseDate').addEventListener('change', () => {
+    sortData("releaseDate");
+    attachEventListeners();
+  });
+  document.getElementById('chronoDate').addEventListener('change', () => {
+    sortData("chronoDate");
+    attachEventListeners();
+  });
 
   document.querySelectorAll('.checkbox').forEach(checkbox => {
     checkbox.addEventListener('change', function() {
