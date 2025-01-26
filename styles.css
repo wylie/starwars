@@ -75,6 +75,9 @@ a.icon {
   line-height: 1;
   padding-bottom: 0.25rem;
 }
+.sticky .title span {
+  white-space: nowrap;
+}
 
 /* SORT/FILTER */
 .sort,
