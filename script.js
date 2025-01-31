@@ -208,6 +208,38 @@ function attachEventListeners() {
   });
 }
 
+// add numbers to the filters so you know how many of something there is
+// TODO: refine this, it's super clunky, but it was done quickly
+function getDataNums() {
+  const types = ["movie", "tvshow", "comic", "book", "videogame"];
+  let dataNums = [];
+  data.forEach(item => {
+    dataNums.push(item.type);
+  });
+  types.forEach(type => {
+    let filterType = "";
+    switch(type) {
+      case "movie":
+        filterType = "Movie";
+        break;
+      case "tvshow":
+        filterType = "TV Show";
+        break;
+      case "comic":
+        filterType = "Comic";
+        break;
+      case "book":
+        filterType = "Book";
+        break;
+      case "videogame":
+        filterType = "Video Game";
+        break;
+    }
+    const count = dataNums.filter(num => num === type).length;
+    document.getElementsByClassName(type === "videogame" ? "videogame" : type)[0].innerHTML = `${filterType}&nbsp;<small>(${count})</small>`;
+  });
+}
+
 // initial call to fetch and display data
 fetchData().then(() => {
   // read from the HTML so we don't have to change this in two places
@@ -235,6 +267,8 @@ fetchData().then(() => {
       attachEventListeners();
     });
   });
+
+  getDataNums();
 
   // expand/collapse the synopsis
   attachEventListeners();
