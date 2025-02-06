@@ -10,7 +10,7 @@
   <meta property="og:description" content="Search through all Star Wars canon movies, books, tv shows, comics, and video games." />
   <meta property="og:url" content="https://nerdstimeline.com" />
   <meta properties=""og:locale" content="en_US" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes">
   <link rel="stylesheet" type="text/css" href="./styles.css">
   <script src="./script.js" type="module"></script>
   <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
@@ -21,8 +21,13 @@
 </head>
 <body>
   <div class="wrapper">
-    <header class="sticky">
-      <h1 class="title">Nerds Timeline: <span>Star Wars</span></h1>
+    <div class="sticky">
+      <header>
+        <div class="title" id="title">
+          <h1>Nerds Timeline: <span>Star Wars</span></h1>
+          <button id="about">About</button>
+        </div>
+      </header>
       <div class="sort">
         <fieldset>
           <h2>Sort</h2>
@@ -45,15 +50,7 @@
         <input class="checkbox" type="checkbox" id="videogame" checked />
         <label class="label videogame" for="videogame">Video Games</label>
       </div>
-      <div id="support">
-        <a class="icon material-symbols-outlined" href="https://www.buymeacoffee.com/wylie" target="_blank" title="Buy me a tea">
-           coffee
-        </a>
-        <a class="icon" href="https://github.com/wylie/starwars" target="_blank" title="GitHub Repo">
-          <img src="./assets/github-black.svg" alt="Buy Me A Coffee"  />
-        </a>
-      </div>
-    </header>
+    </div>
     <div id="starwars"></div>
   </div>
 </body>
