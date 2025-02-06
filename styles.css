@@ -112,6 +112,7 @@ a.icon {
 }
 #aboutPop .links {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 #aboutPop a {
@@ -356,6 +357,9 @@ input:checked + .label::before {
   }
   .sticky {
     padding: 1rem;
+  }
+  #aboutPop .links {
+    flex-direction: row;
   }
   .wrapper {
     max-width: 600px;
