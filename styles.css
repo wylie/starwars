@@ -110,6 +110,10 @@ a.icon {
   margin: 0;
   font-size: .75rem;
 }
+#aboutPop .links {
+  display: flex;
+  justify-content: space-between;
+}
 #aboutPop a {
   color: var(--link-color);
 }
@@ -378,7 +382,10 @@ input:checked + .label::before {
   .sticky .title #about {
     margin-top: -22px;
   }
-  #starwars {
+  #aboutPop .links {
+    flex-direction: column;
+  }
+    #starwars {
     margin-top: 1rem;
   }
   #support .icon {

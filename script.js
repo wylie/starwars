@@ -258,8 +258,7 @@ function About() {
       `<p>While reading Star Wars books, I often wondered where they fit into the canon, but finding answers meant searching multiple timelines. This site solves that by bringing them all together in one place.</p>`+
       `<p>Hope you enjoy exploring the galaxy!</p>`+
       `<hr />`+
-      `<p>Do you like the site? <a href="https://www.buymeacoffee.com/wylie" target="_blank" title="Buy me a tea">Buy me a tea!</a></p>`+
-      `<p>Want to help, or see edits? <a href="https://github.com/wylie/starwars" target="_blank" title="GitHub Repo">Contribute!</a></p>`;
+      `<p class="links"><span>Do you like the site? <a href="https://www.buymeacoffee.com/wylie" target="_blank" title="Buy me a tea">Buy me a tea!</a></span> <span>Want to help, or see edits? <a href="https://github.com/wylie/starwars" target="_blank" title="GitHub Repo">Contribute!</a></span></p>`;
     aboutPop.appendChild(aboutPopClose);
     title.appendChild(aboutPop);
     document.getElementById('aboutPopClose').addEventListener('click', () => {
