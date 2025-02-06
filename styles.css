@@ -85,10 +85,11 @@ a.icon {
 .sticky .title #about {
   position: relative;
   color: var(--text-color);
-  font-size: 75%;
+  font-size: 100%;
   cursor: pointer;
   text-decoration: underline;
   border: 0;
+  padding: 0;
   background: 0;
   font-family: "Lexend", serif;
 }
@@ -101,29 +102,25 @@ a.icon {
   box-shadow: 0px 0px 2px rgba(0,0,0,.5), 0px 5px 6px rgba(0,0,0,.25);
   border-radius: 5px;
   padding: .75rem 1rem;
-  width: calc(100% - 3.25rem);
+  width: calc(100% - 2.75rem);
   line-height: 1.5;
-  font-size: .75rem;
 }
 #aboutPop p {
   padding: .75rem 0 0;
   margin: 0;
+  font-size: .75rem;
 }
 #aboutPop a {
   color: var(--link-color);
-}
-#aboutPop p {
-  padding: .75rem 0 0;
-  margin: 0;
 }
 #aboutPop hr {
   margin: .75rem 0 0;
 }
 #aboutPopClose {
   position: absolute;
-  top: 3px;
+  top: 0;
   right: 3px;
-  font-size: 1rem;
+  font-size: 1.25rem;
   cursor: pointer;
   padding: 0px 7px 3px;
   margin: 0;
@@ -379,7 +376,7 @@ input:checked + .label::before {
     align-items: flex-end;
   }
   .sticky .title #about {
-    margin-top: -1rem;
+    margin-top: -22px;
   }
   #starwars {
     margin-top: 1rem;
