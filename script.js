@@ -1,4 +1,4 @@
-const github = './assets/github-black.svg';
+const close = './assets/close-black.svg';
 
 // create the visual display for the data
 function itemCard(item) {
@@ -252,7 +252,7 @@ function About() {
     const aboutPopClose = document.createElement('span');
     aboutPop.id = 'aboutPop';
     aboutPopClose.id = 'aboutPopClose';
-    aboutPopClose.innerHTML = 'x';
+    aboutPopClose.innerHTML = `<img src="${close}" alt="Close" />`;
     aboutPop.innerHTML = `<h2 class="about">About</h2>`+
       `<p>I’ve been a Star Wars fan for as long as I can remember and was even a member of the Official Star Wars Fan Club, Bantha Tracks as a kid.</p>`+
       `<p>While reading Star Wars books, I often wondered where they fit into the canon, but finding answers meant searching multiple timelines. This site solves that by bringing them all together in one place.</p>`+

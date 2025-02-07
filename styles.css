@@ -123,12 +123,13 @@ a.icon {
 }
 #aboutPopClose {
   position: absolute;
-  top: 0;
-  right: 3px;
+  top: 5px;
+  right: 5px;
   font-size: 1.25rem;
   cursor: pointer;
-  padding: 0px 7px 3px;
+  padding: 0;
   margin: 0;
+  display: flex;
 }
 h2.about {
   margin: 0;
